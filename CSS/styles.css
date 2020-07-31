@@ -9,17 +9,23 @@
     border-bottom: 1px ridge;
     min-height:40px;
 }
+.row-blank{
+  margin:0px auto;
+  padding: 15px 0px 15px 0px;
+}
 
 .footer{
-    background-color:#D1C4E9;
+    background-color:#000000;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color:#FCFCFC;
 }
 .jumbotron{
   padding :70px 30px 70px 30px;
   margin:0px auto;
-  background:#9575CD;
-  color:floralwhite;
+  background:#F0F0E4;
+  color:#1F1903;
+
 }
 .adress{
   font-size:80%;
@@ -29,9 +35,91 @@
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
-    background:##512DA8
-}
+    height: 100%;
+    background-color:#34362C;
+  }
 
 .navbar-dark {
-     background-color: #512DA8;
+     background-color: #1F1903;
+}
+
+}
+ html {
+  height: 100%;
+}
+
+.bg{
+  /* The image used */
+  background-image: url(../img/bgimg.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#formlink{
+  padding:50px 100px ;
+}
+.card-header{
+  background-color:#433607;
+}
+#Signin{
+  btn-color:#433607;
+}
+.form-groupend{
+  color:#433607;
+}
+.navbar-brand{
+  top: 0;
+      left: 0;
+}
+.carousel {
+    background:#34362C;
+}
+
+.carousel-item {
+  height: 500px;
+
+}
+
+.carousel-item img {
+
+
+   margin: auto;
+    height: 500px;
+    width:1000px;
+}
+.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+.sansserif {
+  font-family:"Arial", Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+.bdcolour{
+  color:#F7F7EB;
+
+}
+.cd1{
+  background-color:#E4F2B8;
+}
+.cardheader1{
+  background-color:#E4F2B8;
+}
+.media img{
+  width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.cd2{
+  background-color:#C8C9A9;
+  }
+  .cardheader2{
+    background-color:#C8C9A9;
 }
