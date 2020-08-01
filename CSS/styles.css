@@ -23,8 +23,8 @@
 .jumbotron{
   padding :70px 30px 70px 30px;
   margin:0px auto;
-  background:#F0F0E4;
-  color:#1F1903;
+  background:#000000;
+  color:#FFFFFF;
 
 }
 .adress{
@@ -36,11 +36,11 @@ body{
     padding:50px 0px 0px 0px;
     z-index:0;
     height: 100%;
-    background-color:#34362C;
+    background-color:#CDEEEB;
   }
 
 .navbar-dark {
-     background-color: #1F1903;
+     background-color: #000000;
 }
 
 }
@@ -77,7 +77,7 @@ body{
       left: 0;
 }
 .carousel {
-    background:#34362C;
+    background:#CDEEEB;
 }
 
 .carousel-item {
@@ -86,14 +86,13 @@ body{
 }
 
 .carousel-item img {
-
-
    margin: auto;
     height: 500px;
     width:1000px;
 }
 .serif {
   font-family: "Times New Roman", Times, serif;
+
 }
 .sansserif {
   font-family:"Arial", Helvetica, sans-serif;
@@ -101,25 +100,37 @@ body{
 
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
+
 }
 .bdcolour{
   color:#F7F7EB;
 
 }
 .cd1{
-  background-color:#E4F2B8;
+  background-color:#FFFFFF;
+  color:#000000;
 }
 .cardheader1{
-  background-color:#E4F2B8;
+  background-color:#FFFFFF;
+  color:#000000;
 }
 .media img{
-  width: 50%;
-    height: 100%;
+  width: 400px;
+    height: 350px;
     object-fit: cover;
 }
 .cd2{
-  background-color:#C8C9A9;
+  background-color:#000000;
+  color:#FFFFFF;
   }
   .cardheader2{
-    background-color:#C8C9A9;
+    background-color:#000000;
+    color:#FFFFFF;
+}
+.card-bodyfea{
+  background-color:#000000;
+  color:#FFFFFF;
+}
+.feab{
+  color:#6FF4E9;
 }
